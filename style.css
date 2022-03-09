@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto&family=Volkhov:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.decor {
+    width: 100%;
+}
+.decor .spot {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+    z-index: -1;
+}
+.decor .ellipse {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    /*opacity: 0.3;*/
+}
+.hero_content {
+    position: relative;
+    margin: 18px 91px 97px 148px;
+}
+.image {
+    position: relative;
+    margin: 0 0 0 auto;
+    width: 783.87px;
+    height: 764px;
+}
+.traveller {
+    position: absolute;
+    width: 765px;
+    height: 764px;
+    margin: 0 18px 0 0;
+    z-index: 1;
+}
+.plane1 {
+    position: absolute;
+    top: 84px;
+    left: 147px;
+    width: 137.29px;
+    height: 95.23px;
+    transform: rotate(-31.84deg);
+ }
+.plane2 {
+    position: absolute;
+    width: 137.29px;
+    height: 95.23px;
+    top: 130px;
+    left: 630px;
+    transform: rotate(-31.84deg);
+    z-index:0;
+}
+
+.desk {
+    position: absolute;
+    top: 112px;
+    margin-bottom: 117px;
+    margin-left: 0;
+    width: 630px;
+    height: 535px;
+    z-index: 0;
+}
+.uppercase_decor {
+    position: absolute;
+    top: 124px;
+    left: 243px;
+    z-index: -1;
+}
+.tegline {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #DF6951;
+    margin-bottom: 24px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.heading {
+    width: 545px;
+    height: 267px;
+    font-family: 'Volkhov', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    color: #181E4B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    width: 38.5px;
+    height: 22px;
+    margin-left: 42px;
+
+}
+.top_nav {
+    display: flex;
+    z-index: 1;
+    margin-top: 47px;
+    margin-right: 139px;
+    margin-left: 141px;
+    align-items: center;
+    height: 40px;
+
+}
+.logo {
+    width: 114.91px;
+    height: 33.99px;
+    margin-right: 222px;
+}
+.navigation {
+    display: flex;
+    width: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_nav button {
+    width: 102px;
+    height: 40px;
+    margin-left: 42px;
+    border: 1px solid #212832;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #FFF1DA;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+}
+.top_nav a {
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 0 0 0 40px;
+
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #212832;
+}
+.desk p {
+    margin-bottom: 34px;
+    width: 477px;
+    height: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #5E6282;
+    -webkit-text-stroke: 1px black;
+}
+.desk_button {
+    width: 379px;
+    height: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.find {
+    width: 170px;
+    height: 60px;
+    margin-right: 44px;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.play_demo {
+    width: 52px;
+    height: 52px;
+    margin-right: 21px;
+    border-radius: 50%;
+    background: #DF6951;
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+.play_demo img {
+    vertical-align: middle;
+    text-align: center;
+
+}
+.play_demo label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #686D77;
+}
+
+.play_demo_container {
+    display: inline-block;
+}
