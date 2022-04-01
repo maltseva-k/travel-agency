@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
+
 
 }
 button {
@@ -1366,6 +1366,7 @@ h5 {
 
 .title_images {
     position: relative;
+
 }
 
 .clacs {
