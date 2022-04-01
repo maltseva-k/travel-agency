@@ -166,7 +166,7 @@ button {
     vertical-align: center;
     text-decoration: none;
     /*padding: 0 30px 0 34px;*/
-    font-family: 'Google Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -191,7 +191,7 @@ button {
     box-sizing: border-box;
     border-radius: 5px;
     background-color: transparent;
-    font-family: 'Google Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -218,9 +218,11 @@ button {
     -webkit-text-stroke: 1px black;
 }
 .desk_button {
-    width: 379px;
+    width: 100%;
+    align-items: center;
     height: 60px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
 }
 
 .find {
@@ -1339,12 +1341,15 @@ h5 {
 }
 .dropdown_ru {
     color: #FFF1DA;
+    font-family: 'Poppins', sans-serif;
 }
 .dropdown:hover .dropdown_ru{
     color: #212832;
 
 }
-
+.dropdown_EN {
+    font-family: 'Poppins', sans-serif;
+}
 .lang {
     display: flex;
 }
@@ -1410,6 +1415,25 @@ h5 {
     margin-top: 8rem;
     margin-bottom: auto;
     position: relative;
+
+}
+
+.title_p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(94, 98, 130, 1);
+}
+
+.play_demo_label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color:rgba(104, 109, 119, 1);
 
 }
 
