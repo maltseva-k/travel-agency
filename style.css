@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 button {
     cursor: pointer;
@@ -21,26 +22,40 @@ button {
     /*opacity: 0.3;*/
 }
 .hero_content {
+    width: 100%;
+    box-sizing: border-box;
     position: relative;
-    margin: 18px 91px 97px 148px;
+    /*margin: 18px 91px 97px 148px;*/
+    margin-top: 18px;
+    margin-bottom: 97px;
+    padding-left: 8rem;
+    padding-right: 4rem;
 }
 .image {
+    max-width: 765px;
+
+
     position: relative;
     margin: 0 0 0 auto;
-    width: 783.87px;
+    /*width: 783.87px;*/
     height: 764px;
 }
+
 .traveller {
     position: absolute;
-    width: 765px;
-    height: 764px;
-    margin: 0 18px 0 0;
-    z-index: 1;
+/*    width: 765px;
+    height: 764px;*/
+
+    width: 100%;
+    right: 0;
+    top: 0;
+    /*margin: 0 18px 0 0;*/
+    z-index: 0;
 }
 .plane1 {
     position: absolute;
     top: 84px;
-    left: 147px;
+    right: 30px;
     width: 137.29px;
     height: 95.23px;
     transform: rotate(-31.84deg);
@@ -112,33 +127,43 @@ button {
 }
 .top_nav {
     display: flex;
-    z-index: 1;
-    margin-top: 47px;
-    margin-right: 139px;
-    margin-left: 141px;
-    align-items: center;
-    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1280px;
 
+    z-index: 1;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 9rem;
+    align-items: center;
+    height: 4rem;
 }
 .logo {
-    width: 114.91px;
-    height: 33.99px;
-    margin-right: 222px;
+    /*width: 114.91px;
+    height: 33.99px;*/
+    /*margin-right: 2rem;*/
 }
 .navigation {
     display: flex;
-    width: auto;
-    margin-left: auto;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20rem;
+    justify-content: end;
+   /* justify-content: space-between;*/
     align-items: center;
+}
 
-
+.navigation_lists {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
 }
 .navigation_a {
     text-align: center;
     vertical-align: center;
     text-decoration: none;
-    padding: 0 30px 0 34px;
+    /*padding: 0 30px 0 34px;*/
     font-family: 'Google Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -146,10 +171,10 @@ button {
     line-height: 22px;
     color: #212832;
 }
-.navigation_a:last-child {
+/*.navigation_a:last-child {
     padding: 0 30px 0 40px;
 
-}
+}*/
 
 
 .navigation_a:hover {
@@ -523,6 +548,7 @@ h4 {
 }
 
 .booking_card {
+    position: relative;
     margin: 69px 0 0 auto;
     width: 485px;
     height: 459px;
@@ -559,13 +585,13 @@ h5 {
     position: absolute;
     width: 354px;
     height: 367px;
-    right: 211px;
+    right: 0;
     /*left: 875px;*/
-    top: 2400px;
+    top: -30px;
     background: #59B1E6;
     opacity: 0.3;
     filter: blur(150px);
-    z-index: -1;
+    z-index: -20;
 }
 
 .values p {
@@ -583,8 +609,8 @@ h5 {
 }
 .ongoing_card {
     position: absolute;
-    left: 1032px;
-    top: 2705px;
+    right: 0;
+    top: 200px;
     z-index: 2;
     width: 263px;
     height: 129px;
@@ -652,8 +678,8 @@ h5 {
 .heart_shadow {
     position: absolute;
     z-index: 0;
-    left: 1141px;
-    top: 2850px;
+    right: 150px;
+    top: 360px;
     width: 20px;
     height: 18.58px;
     -webkit-mask-image: url("img/Heart.svg");
@@ -666,8 +692,8 @@ h5 {
 }
 .heart {
     position: absolute;
-    left: 1141px;
-    top: 2847px;
+    right: 150px;
+    top: 360px;
     z-index: 1;
     width: 20px;
     height: 18.58px;
@@ -759,6 +785,7 @@ h5 {
     width: 1356px;
     height: 490px;
     margin: 111px 36px 96px 48px;
+    position: relative;
     /*background-color: blueviolet;*/
 }
 
@@ -807,19 +834,24 @@ h5 {
     position: absolute;
     width: 153px;
     height: 166px;
-    left: 1251px;
-    top: 4149px;
+    right:0;
+    bottom: 0px;
     /*right: 36px;*/
 
 }
 
 .footer {
-    /*background-color: blueviolet;*/
+
+    box-sizing: border-box;
+    width: 1500px;
     display: flex;
     justify-content: space-between;
-    margin-left: 86px;
-    margin-right: 194px;
-    margin-bottom: 84px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 140px;
+    padding-right: 174px;
+    margin-bottom: 70px;
+
 }
 .company_desk {
     padding-top: 17px;
@@ -879,7 +911,7 @@ h5 {
     color: #F1A501;
 }
 .copyrights {
-    margin-bottom: 79px;
+    margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -887,6 +919,9 @@ h5 {
     line-height: 124.5%;
     color: #5E6282;
     text-align: center;
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title_nav_columns {
@@ -1219,8 +1254,9 @@ h5 {
     padding: 13px 13px 13px 15px;
     box-sizing: border-box;
     position: absolute;
-    left: 1260px;
-    top: 3800px;
+    right: 80px;
+    top: -20px;
+    z-index: 100;
 }
 
 .social_media_container {
@@ -1312,6 +1348,69 @@ h5 {
 
 .lang {
     display: flex;
+}
+
+.title_of_jadoo {
+    width: 1250px;
+    margin-left: 150px;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+
+.title_images {
+    position: relative;
+}
+
+.clacs {
+    position: absolute;
+    z-index: -40;
+    top:-200px;
+    right:-59px;
+}
+
+.ellipse_img {
+    position: absolute;
+    z-index: -40;
+    top:-100px;
+    left:-700px;
+}
+.plus_img {
+    position: absolute;
+    z-index: -40;
+    bottom:-260px;
+    right: 0px;
+}
+
+.air-1 {
+    position: absolute;
+    top:100px;
+    right: 480px;
+    transform: rotate(-31.84deg);
+
+}
+
+.air-2 {
+    position: absolute;
+    top:50px;
+    right: 0;
+    transform: rotate(-31.84deg);
+}
+
+.uppercase_img {
+    position: absolute;
+    top: 130px;
+    left:250px;
+    z-index: -1;
+}
+
+.title_text {
+    margin-top: 8rem;
+    margin-bottom: auto;
+    position: relative;
+
 }
 
 
