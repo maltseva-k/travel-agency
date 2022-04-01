@@ -2,7 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    overflow-x:hidden;
+
 }
 button {
     cursor: pointer;
@@ -33,6 +34,7 @@ button {
 }
 .image {
     max-width: 765px;
+    overflow:hidden;
 
 
     position: relative;
@@ -841,13 +843,11 @@ h5 {
 }
 
 .footer {
-
     box-sizing: border-box;
     width: 1500px;
     display: flex;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+
     padding-left: 140px;
     padding-right: 174px;
     margin-bottom: 70px;
@@ -920,8 +920,7 @@ h5 {
     color: #5E6282;
     text-align: center;
     width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .title_nav_columns {
@@ -1368,7 +1367,8 @@ h5 {
     position: absolute;
     z-index: -40;
     top:-200px;
-    right:-59px;
+    right:-70px;
+
 }
 
 .ellipse_img {
