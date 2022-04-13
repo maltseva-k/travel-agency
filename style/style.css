@@ -430,18 +430,18 @@ h4 {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25)
 }
 .destinations li:nth-child(1) {
-    background: url("img/Rome.jpg") 100% 100% no-repeat;
+    background: url("../img/Rome.jpg") 100% 100% no-repeat;
     margin-left: 30px;
 }
 
 .destinations li:nth-child(2) {
     margin-left: 35px;
     margin-right: 60px;
-    background: url("img/London.jpg") 200% 100% no-repeat;
+    background: url("../img/London.jpg") 200% 100% no-repeat;
     /*filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));*/
 }
 .destinations li:nth-child(3) {
-    background: url("img/FullEurope.jpg") 100% 100% no-repeat;
+    background: url("../img/FullEurope.jpg") 100% 100% no-repeat;
 }
 
 .decor_line {
@@ -686,7 +686,7 @@ h5 {
     top: 360px;
     width: 20px;
     height: 18.58px;
-    -webkit-mask-image: url("img/Heart.svg");
+    -webkit-mask-image: url("../img/Heart.svg");
     background-color: rgba(0, 0, 0, 0.25);
     opacity: 0.5;
     filter: blur(5px)
@@ -701,7 +701,7 @@ h5 {
     z-index: 1;
     width: 20px;
     height: 18.58px;
-    -webkit-mask-image: url("img/Heart.svg");
+    -webkit-mask-image: url("../img/Heart.svg");
     background-color: #4152CA;
     cursor: pointer;
 }
@@ -762,26 +762,26 @@ h5 {
 
 }
 .axon {
-    background-image: url("img/PartnerAxon.png");
+    background-image: url("../img/PartnerAxon.png");
     background-size: 130px 130px;
 }
 
 .jestar {
-    background-image: url("img/PartnerJestar.png");
+    background-image: url("../img/PartnerJestar.png");
     background-size: 173px 110px;
 }
 
 .expedia {
-    background-image: url("img/PartnerMainExpedia.svg");
+    background-image: url("../img/PartnerMainExpedia.svg");
     background-size: 162px 162px;
 }
 
 .quantas {
-    background-image: url("img/PartnerQuantas.png");
+    background-image: url("../img/PartnerQuantas.png");
     background-size: 162px 31px;
 }
 .alitalia {
-    background-image: url("img/PartnerAlitalia.png");
+    background-image: url("../img/PartnerAlitalia.png");
     background-size: 94px 21px;
 }
 
@@ -964,11 +964,11 @@ h5 {
     display: flex;
 }
 .google {
-    background-image: url("img/GoogleButton.svg");
+    background-image: url("../img/GoogleButton.svg");
     margin-right: 5px;
 }
 .apple {
-    background-image: url("img/AppleButton.svg");
+    background-image: url("../img/AppleButton.svg");
 }
 .social {
     width: 177px;
@@ -1138,7 +1138,7 @@ h5 {
 .arrow_down {
     width: 24px;
     height: 17px;
-    -webkit-mask-image: url("img/ArrowToDown.svg");
+    -webkit-mask-image: url("../img/ArrowToDown.svg");
     background-color: #4152CA;
     cursor: pointer;
     align-items: center;
@@ -1268,7 +1268,7 @@ h5 {
 }
 
 .instagram {
-    background-image: url("img/InstaramBackground.png");
+    background-image: url("../img/InstaramBackground.png");
     background-position: center;
 }
 
